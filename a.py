@@ -21,7 +21,8 @@ v1=1
 v2=2
 V=0.6
 I=0
-
+k1=
+k2=
 
 #許容誤差
 epsilon1=0.00001
@@ -42,5 +43,5 @@ while abs(V - v1 - v2) > epsilon1:
     I += 0.0001
     print(v1, v2)
             
-
-print(v1, v2)
+print(I)
+# print(v1, v2)
